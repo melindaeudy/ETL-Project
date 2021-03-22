@@ -5,13 +5,9 @@ DROP TABLE bars_sc
 DROP TABLE breweries_data
 
 ALTER TABLE breweries_data
-ADD PRIMARY KEY (address1);
-
-ALTER TABLE bars_nc
-ADD PRIMARY KEY (address1);
-
-ALTER TABLE bars_sc
-ADD PRIMARY KEY (address1);
+ADD COLUMN price VARCHAR,
+ADD COLUMN rating VARCHAR,
+ADD COLUMN review_count VARCHAR;
 
 SELECT * FROM bars_nc
 
@@ -19,8 +15,17 @@ SELECT * FROM bars_sc
 
 SELECT * FROM breweries_data
 
--- Joins tables
-SELECT breweries_data.name, breweries_data.phones, breweries_data.address1, breweries_data.city, breweries_data.state, breweries_data.zip_code, breweries_data.websites, bars_nc.price, bars_nc.rating, bars_nc.review_count
-FROM breweries_data
-JOIN bars_nc
-ON breweries_data.address1 = bars_nc.address1;
+
+
+-- Merge tables
+INSERT INTO breweries_data 
+(SELECT FROM bars_sc WHERE address1 NOT IN (SELECT FROM breweries_data));
+
+CREATE TABLE breweries_combined 
+ AS
+ SELECT * FROM breweries_data 
+ 	UNION
+  	SELECT * FROM bars_sc
+
+To merge rows from one table into the other. INSERT INTO table1 (SELECT * FROM table2 WHERE name NOT IN (SELECT name FROM table1));
+For creating new table from old tables. CREATE TABLE new_table AS (SELECT * FROM table1 UNION SELECT * FROM table2);
