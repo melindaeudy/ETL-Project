@@ -4,6 +4,8 @@ DROP TABLE bars_sc
 
 DROP TABLE breweries_data
 
+DROP TABLE breweries_combined
+
 ALTER TABLE breweries_data
 ADD COLUMN price text,
 ADD COLUMN rating double precision,
@@ -28,6 +30,12 @@ CREATE TABLE breweries_combined
 
 CREATE TABLE breweries
  AS
- SELECT * FROM breweries_combined 
+ SELECT * FROM breweries_combined
  	UNION
   	SELECT * FROM bars_nc
+	
+	
+SELECT * 
+FROM breweries
+WHERE 
+	city = 'Durham';
