@@ -66,8 +66,6 @@ TRANSFORM – Yelp – South Carlina
  
 
 SEND TABLES TO POSTGRES (pgAdmin4):
-•	Added Primary Key to tables in pgAdmin4
-•	Join Tables
-•	
+
 
 
