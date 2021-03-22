@@ -13,6 +13,12 @@ ADD PRIMARY KEY (address1);
 ALTER TABLE bars_sc
 ADD PRIMARY KEY (address1);
 
+SELECT * FROM bars_nc
+
+SELECT * FROM bars_sc
+
+SELECT * FROM breweries_data
+
 -- Joins tables
 SELECT breweries_data.name, breweries_data.phones, breweries_data.address1, breweries_data.city, breweries_data.state, breweries_data.zip_code, breweries_data.websites, bars_nc.price, bars_nc.rating, bars_nc.review_count
 FROM breweries_data
