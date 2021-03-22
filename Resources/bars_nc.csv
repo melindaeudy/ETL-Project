@@ -1,0 +1,21 @@
+,name,phone,address1,city,state,zip_code,website,price,rating,review_count
+0,The Fairwood 226,+19803090463,226 Fairwood Ave,Charlotte,NC,28203,https://api.yelp.com/v3/businesses/search,$,4.5,130.0
+1,The Thirsty Beaver,+17043323612,1225 Central Ave,Charlotte,NC,28204,,$$,4.0,122.0
+2,Stroke,+17044627007,1318 Pecan Ave,Charlotte,NC,28205,,$$,4.0,101.0
+3,Charlotte Beer Garden,+17043751776,1300 S Tryon St,Charlotte,NC,28203,,$$,4.5,68.0
+4,Nuvole Rooftop TwentyTwo,+19809609800,220 E Trade St,Charlotte,NC,28202,,$,3.5,51.0
+5,Room 1812,+19802370391,1812 S Blvd,Charlotte,NC,28203,,$$,4.5,127.0
+6,The Cotton Room,+17043337160,144 Brevard Ct,Charlotte,NC,28202,,$,4.0,13.0
+7,Coin Bar,+17043770400,132 E Trade St,Charlotte,NC,28202,,$,4.5,98.0
+8,The Basement Arcade Bar,+19804398435,14 Union St S,Concord,NC,28025,,$,5.0,51.0
+9,Coyote Joe's,+17043994946,4621 Wilkinson Blvd,Charlotte,NC,28208,,$$,4.0,94.0
+10,The Corner Bar,+17049106232,2016 Ayrsley Town Blvd,Charlotte,NC,28273,,$,4.5,12.0
+11,The Woodshed Bar,+17043941712,3935 Queen City Dr,Charlotte,NC,28208,,$$,4.0,82.0
+12,Tilt on Trade,+17043474870,127 W Trade St,Charlotte,NC,28202,,$$,3.5,537.0
+13,The Eagle Food & Beer Hall,+17047801570,2120 S Blvd,Charlotte,NC,28203,,$$,4.5,62.0
+14,Hattie's Tap & Tavern,+19809386228,2918 The Plz,Charlotte,NC,28205,,,,
+15,Idlewild,,424 East 36th St,Charlotte,NC,28205,,,,
+16,The Trap Bar & Billiards,+17049105640,1923 Westinghouse Bvld,Charlotte,NC,28273,,,,
+17,Lucky Lou's Tavern,+17049191282,5124 Park Rd,Charlotte,NC,28209,,,,
+18,Boardwalk Billy's Raw Bar And Ribs,+17045037427,9005 J M Keynes Dr,Charlotte,NC,28262,,,,
+19,The Bohemian: A Wine Bar,+19802072062,1319 Pecan Ave,Charlotte,NC,28205,,,,

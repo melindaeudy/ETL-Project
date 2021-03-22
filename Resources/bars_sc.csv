@@ -1,0 +1,21 @@
+,name,phone,address1,city,state,zip_code,website,price,rating,review_count
+0,The Whig,+18039318852,1200 Main St,Columbia,SC,29201,https://api.yelp.com/v3/businesses/search,$,4.5,203.0
+1,Rooftop Lounge,+18039881400,1400 Main St,Columbia,SC,29201,,$$,3.0,37.0
+2,Savage Craft Ale Works,+18038886005,430 Center St,West Columbia,SC,29169,,$,3.5,47.0
+3,Art Bar,+18039290198,1211 Park St,Columbia,SC,29201,,$$,4.0,61.0
+4,Hendrix,+18038345132,1649 Main St,Columbia,SC,29201,,$$,4.0,488.0
+5,Bourbon,+18034031404,1214 Main St,Columbia,SC,29201,,$$,4.0,143.0
+6,River Rat Brewery,+18037245712,1231 Shop Rd,Columbia,SC,29201,,$$,2.0,11.0
+7,Moosehead Saloon,+18037084984,2020 Devine St,Columbia,SC,29205,,$$,4.5,117.0
+8,Goat's,+18037084495,2017 Devine St,Columbia,SC,29205,,$$,3.5,128.0
+9,The Joint @ 1710 Main,+18038142614,1710 Main St,Columbia,SC,29201,,$$$,3.5,15.0
+10,Racks Restaurant & Sports Bar,+18035696512,108 Columbia NE Dr,Columbia,SC,29223,,$$,4.0,31.0
+11,The Grand,+18037262323,1621 Main St,Columbia,SC,29201,,$$,4.5,165.0
+12,The Vault Martini Bar,+18039881400,1400 Main St,Columbia,SC,29201,,$$,3.0,10.0
+13,Baker's Sports Bar & Grill,+18034192381,7167 Two Notch Rd,Columbia,SC,29223,,$$,4.5,652.0
+14,O'Hara's Public House,+18037854025,131 E Main St,Lexington,SC,29072,,$$,4.0,19.0
+15,Pavlov's,+18037712262,2000 Greene St,Columbia,SC,29205,,$$,4.5,30.0
+16,Southern Belly BBQ,+18037643512,819 Harden St,Columbia,SC,29205,,$$,3.5,118.0
+17,Nightcaps,+18037716575,2722 Devine St,Columbia,SC,29205,,,,
+18,The Aristocrat,+18037088004,1001 Washington St,Columbia,SC,29201,,,,
+19,Carolina Ale House,+18034076996,277 Columbiana Dr,Columbia,SC,29212,,,,
