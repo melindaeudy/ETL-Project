@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 config.py
+configk.py
 api_keys.py
 'project notes.txt'
